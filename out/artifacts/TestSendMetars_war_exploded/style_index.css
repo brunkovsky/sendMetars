@@ -1,0 +1,21 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    background-color:darkgrey;
+    margin: 50px;
+}
+.main_input {
+    text-align: center;
+    width: 400px;
+    border: 1px solid #eaeaea;
+    margin: 0 auto;
+    padding: 20px;
+}
+.footer {
+    color:#444444;
+    height: 5px;
+    text-align: center;
+    margin: 30px;
+}

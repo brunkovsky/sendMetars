@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - testSendMessage@localhost" uuid="d4c74010-1092-4b9e-b4ba-b14f990099bc">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>testSendMessage.*</schema-pattern>
+      <default-schemas>testSendMessage.*</default-schemas>
+    </data-source>
+  </component>
+</project>
