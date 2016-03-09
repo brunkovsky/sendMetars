@@ -45,7 +45,7 @@ ${requestScope.userName}
 
 <br>
 
-<c:set var="myName" value="Александрова"/>
+<c:set var="myName" value="Начальник"/>
 <c:if test="${requestScope.userName != myName}">
     <form method="post" action="Servlet" name="regular">
         <input type="text" name="name" value="${requestScope.userName}" hidden>
@@ -302,7 +302,7 @@ AAEE 33961 text=
     </form>
 </c:if>
 
-<c:set var="myName" value="Александрова"/>
+<c:set var="myName" value="Начальник"/>
 <c:if test="${requestScope.userName eq myName}">
     <form method="post" action="ReadServlet">
         <input type="submit" value="результаты">
