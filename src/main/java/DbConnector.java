@@ -10,7 +10,7 @@ public class DbConnector {
             e.printStackTrace();
         }
         try {
-            connection = DriverManager.getConnection(connectionURL, "root", "qwertyui");
+            connection = DriverManager.getConnection(connectionURL, "root", "root");
         } catch (SQLException e) {
             e.printStackTrace();
         }
